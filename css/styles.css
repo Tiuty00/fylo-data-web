@@ -1,0 +1,490 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.1rem;
+  color: hsl(243, 87%, 12%);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Title */
+
+#title {
+  padding: 0 1% 13%;
+}
+
+/* NavBar */
+
+.navbar {
+  padding: 4% 0 5% 3%;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-link {
+  color: hsl(243, 87%, 12%);
+}
+
+/* title img */
+
+.title-img {
+  width: 100%;
+}
+
+/* title text */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 1rem;
+}
+
+.p-title {
+  line-height: 1.4;
+  margin-right: 10%;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+
+.email-form {
+  margin-right: 15%;
+  position: relative;
+}
+
+.email, .btn {
+  font-size: 1rem;
+  color: hsl(240, 75%, 98%);
+  border-radius: 3px;
+  position: relative;
+}
+
+.email {
+  font-size: 0.8rem;
+  border: 1px solid black;
+  padding: 3.5%;
+}
+
+.email::placeholder {
+  opacity: 0.5;
+}
+
+.btn {
+  font-weight: 700;
+  box-shadow: 3px 3px 8px hsl(0, 0%, 75%);
+  background-color: hsl(224, 93%, 58%);
+}
+
+.btn:hover {
+  background-color: hsla(221, 100%, 71%, 1);
+  border: 1px solid hsla(221, 100%, 71%, 1);
+  color: hsl(240, 75%, 98%);
+}
+
+.error-message {
+    font-size: 0.8rem;
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    color: #dc3545;
+}
+
+.email:not(:focus):invalid {
+  border-color: #dc3545;
+}
+
+.email:not(:focus):invalid ~ .error-message {
+  display: block;
+}
+
+/* Features */
+
+#features {
+  background-color: #F9F8FE;
+  padding-bottom: 7%;
+}
+
+.curve-features {
+  height: 100px;
+}
+
+/* Features Box */
+
+.features-box {
+  padding-top: 5%;
+}
+
+.features-title {
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+.p-features {
+  font-size: 1rem;
+  line-height: 1.4;
+  white-space: pre-line;
+  margin-right: 10%;
+  margin-bottom: 1.5rem;
+}
+
+.show-fylo {
+  width: max-content;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  margin-bottom: 3rem;
+}
+
+.features-link {
+  color: hsl(170, 45%, 43%);
+}
+
+.features-link:hover {
+  color: hsl(170, 45%, 71%);
+}
+
+/* Testimonial section */
+
+.testimonial {
+  width: 55%;
+  background-color: hsl(240, 75%, 98%);
+  box-shadow: 3px 3px 16px hsl(0, 0%, 90%);
+  padding: 4% 4.5%;
+  border-radius: 4px;
+}
+
+.icon-quotes {
+  width: 6%;
+  margin-bottom: 3%;
+}
+
+.testimonial-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Avatar Testimonial */
+
+.avatar-testimonial {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 11%;
+  border-radius: 100%;
+  margin-right: 2.5%;
+}
+
+.avatar-box-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.avatar-text {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+/* Features IMG */
+
+.features-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-img {
+  width: 90%;
+}
+
+/* Download */
+
+#download {
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(240, 75%, 98%);
+  padding: 5%;
+}
+
+.download-title {
+  font-size: 2rem;
+  color: hsl(240, 75%, 98%);
+}
+
+.p-download {
+  line-height: 1.4;
+  color: hsl(240, 75%, 98%);
+  margin-right: 10%;
+  margin-bottom: 1.5rem;
+}
+
+/* Download Email */
+
+.download-email-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-email {
+  margin-bottom: 3%;
+}
+
+.download-email {
+  box-shadow: 3px 3px 8px hsl(0, 0%, 30%);
+  padding: 2.5%;
+}
+
+.download-btn {
+  font-size: 0.9rem;
+  box-shadow: 3px 3px 8px hsl(0, 0%, 30%);
+  padding: 5%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(240, 75%, 98%);
+  padding: 8% 5% 3%;
+}
+
+.footer-logo {
+  filter: invert(96%) sepia(0%) saturate(17%) hue-rotate(359deg) brightness(1000%) contrast(106%);
+  padding-bottom: 2%;
+}
+
+.col-footer {
+  line-height: 2.5rem;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-footer {
+  margin-right: 15px;
+}
+
+.link-footer {
+  width: max-content;
+  color: hsl(240, 75%, 98%);
+}
+
+.link-footer:hover {
+  color: hsla(221, 100%, 71%, 1);
+}
+
+.social-link {
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.social-link:hover {
+  border: 1px solid hsla(221, 100%, 71%, 1);
+}
+
+.facebook {
+  padding: 4px 10px;
+}
+
+.twitter {
+  padding: 4px 7px;
+}
+
+.instagram {
+  padding: 4px 8px;
+}
+
+/* attribution */
+
+.attribution-div {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  color: hsl(240, 75%, 98%);
+}
+
+.attribution-link {
+  color: hsl(170, 45%, 43%);
+}
+
+.attribution-link:hover {
+  color: hsl(170, 45%, 71%);
+}
+
+/* Media Sections */
+
+@Media (max-width: 767px ) {
+
+p {
+  font-size: 0.9rem;
+}
+
+  /* navbar Media */
+
+  .navbar {
+    padding-top: 5%;
+  }
+
+  .logo-navbar {
+    width: 80%;
+  }
+
+  .nav-item {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-right: 0;
+  }
+
+  /* Title */
+
+  .title-img {
+    margin-bottom: 50px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .big-title {
+    font-size: 1.5rem;
+  }
+
+  .p-title {
+    margin-right: 0;
+  }
+
+  .email-form {
+    margin-right: 0;
+  }
+
+ /* Features */
+
+ #features {
+   padding-bottom: 25%;
+ }
+
+  .curve-features {
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  .features-img {
+    margin-bottom: 100px;
+  }
+
+  .features-text {
+    padding: 0 6%;
+  }
+
+  .features-title {
+    font-size: 1rem;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .p-features {
+    font-size: 0.9rem;
+    white-space: normal;
+    margin-right: 0;
+  }
+
+  .show-fylo {
+    font-size: 0.9rem;
+    margin: auto auto 3rem auto;
+  }
+
+  .testimonial {
+    width: 90%;
+    padding: 8% 8%;
+    margin: auto;
+  }
+
+  .testimonial-text {
+    font-size: 0.7rem;
+  }
+
+  .avatar-title {
+    font-size: 0.7rem;
+  }
+
+  .avatar-text {
+    font-size: 0.5rem;
+  }
+
+  /* Download */
+
+  #download {
+    padding: 20% 5%;
+  }
+
+  .download-title {
+    font-size: 1.2rem;
+  }
+
+  .p-download {
+    font-size: 0.95rem;
+    margin-right: 0;
+  }
+
+  .download-email-btn {
+    padding: 0 12%;
+  }
+
+  .download-email {
+    padding: 5%;
+    font-size: 0.6rem;
+  }
+
+  .download-btn {
+    font-size: 0.6rem;
+  }
+
+  /* Footer */
+
+  #footer {
+    padding: 15% 10%;
+  }
+
+  .footer-logo {
+    padding-bottom: 10%;
+  }
+
+  .col-footer {
+    padding-bottom: 12%;
+  }
+
+  .col-footer-social {
+    text-align: center;
+  }
+
+  /* attribution */
+
+  .attribution-div {
+    margin-top: 50px;
+  }
+
+}
